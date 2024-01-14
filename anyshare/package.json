@@ -1,0 +1,30 @@
+{
+  "name": "anyshare",
+  "version": "1.0.0",
+  "description": "share any kind of password protected file with anyone, anywhere",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Punit-Choudhary/webcodechest.git"
+  },
+  "author": "Punit-Choudhary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Punit-Choudhary/webcodechest/issues"
+  },
+  "homepage": "https://github.com/Punit-Choudhary/webcodechest#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.4",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

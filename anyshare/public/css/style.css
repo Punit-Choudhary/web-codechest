@@ -1,0 +1,19 @@
+#file-upload-form {
+    display: grid;
+    gap: .5rem;
+    grid-template-columns: auto 1fr;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#share-btn {
+    grid-column: span 2;
+}
+
+.msg {
+    margin-bottom: 1rem;
+}
+
+.error {
+    color: red;
+}
