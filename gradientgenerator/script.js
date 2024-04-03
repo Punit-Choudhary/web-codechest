@@ -9,7 +9,7 @@ let currentDirection = 'to bottom';
 
 
 function setDirection(value, _this) {
-    let directions = document.querySelectorAll(".buttons button");
+    let directions = document.querySelectorAll(".active");
     for (let i of directions) {
         i.classList.remove("active");
     }
